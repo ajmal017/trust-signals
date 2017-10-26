@@ -1,0 +1,230 @@
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="west.ru" resolutions="1x" timestamp="1489992701651">
+  <folder name="css">
+    <file name="site_global.css" crc="4126372088"/>
+    <file name="index.css" crc="3829732241" ref="index"/>
+    <file name="iefonts_index.css" crc="3824530138" ref="index"/>
+    <file name="nomq_index.css" crc="284632842" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="alerttone_wav_library_net.mp3" crc="3766102962" seo="true" mt="1488716931000"/>
+    <file name="без-имени-2.jpg" crc="390889140" seo="true" mt="1489648266000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4232573551" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4152223963" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index"/>
+    <file name="webpro.js" crc="3770351119" ref="index"/>
+    <file name="musewpslideshow.js" crc="4244742588" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="432750910" ref="index"/>
+    <file name="touchswipe.js" crc="3912873526" ref="index"/>
+    <file name="require.js" crc="4234670167" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="433634197" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="elly-boot---торговый-робот-для-бинарных-опционов-favicon.ico" crc="4200581954" ref="index"/>
+    <file name="lady1.png" crc="4230382217" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u2714.png" crc="336411709" ref="index"/>
+    <file name="u2714-r.png" crc="373797640" ref="index"/>
+    <file name="logo1.png" crc="25167497" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="widprew.jpg" crc="146191870" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="letterx-u4422.png" crc="3914718277" ref="index"/>
+    <file name="avatar.png" crc="131565853" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="letterx-u4545.png" crc="3914718277" ref="index"/>
+    <file name="shopping237-u4579.png" crc="417818851" ref="index"/>
+    <file name="shopping237-u4606.png" crc="417818851" ref="index"/>
+    <file name="shopping237-u4635.png" crc="417818851" ref="index"/>
+    <file name="hp.jpg" crc="3826708441" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="1488822715_ic_cloud_download_48px-u513.png" crc="4086962095" ref="index"/>
+    <file name="bg1.png" crc="334554196" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="iqoption2.png" crc="4283848811" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="0916bfa78b20-u1429-fr.png" crc="3772847083" ref="index"/>
+    <file name="u2802.png" crc="3880094119" ref="index"/>
+    <file name="u2802-r.png" crc="4086962095" ref="index"/>
+    <file name="db48564fe397-u2652-fr.png" crc="3898361914" ref="index"/>
+    <file name="download.png" crc="3917976546" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="arrow-right-310628_960_720.png" crc="3817608575" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="money.png" crc="4245296758" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="girls_png6462.png" crc="240990559" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="speech_b-095.png" crc="510793667" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="rocket.png" crc="477176319" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="settings.png" crc="449473347" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="db48564fe397-u3703-fr.png" crc="512740673" ref="index"/>
+    <file name="check icon.png" crc="3938640225" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="cancel icon.png" crc="3815205266" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="button.png" crc="4011436258" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="featured-package.png" crc="4074471443" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u4809.png" crc="336411709" ref="index"/>
+    <file name="u4809-r.png" crc="373797640" ref="index"/>
+    <file name="krestik.png" crc="505565978" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo.png" crc="151115105" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="up-arrow-5_icon-iconscom_69823-u4924.png" crc="3948965723" ref="index"/>
+    <file name="letterx-u44222.png" crc="3914718277" ref="index"/>
+    <file name="letterx-u45452.png" crc="3914718277" ref="index"/>
+    <file name="shopping237-u45792.png" crc="417818851" ref="index"/>
+    <file name="hp-u94-fr.jpg" crc="292398795" ref="index"/>
+    <file name="1488822715_ic_cloud_download_48px-u5132.png" crc="4173022425" ref="index"/>
+    <file name="shopping237-u46062.png" crc="417818851" ref="index"/>
+    <file name="shopping237-u46352.png" crc="417818851" ref="index"/>
+    <file name="bg1-u1387-fr.png" crc="128590702" ref="index"/>
+    <file name="u27142.png" crc="3943859203" ref="index"/>
+    <file name="u2714-r2.png" crc="4024312965" ref="index"/>
+    <file name="u28022.png" crc="4003639955" ref="index"/>
+    <file name="u2802-r2.png" crc="4173022425" ref="index"/>
+    <file name="u48092.png" crc="336411709" ref="index"/>
+    <file name="u4809-r2.png" crc="373797640" ref="index"/>
+    <file name="up-arrow-5_icon-iconscom_69823-u49242.png" crc="371587066" ref="index"/>
+    <file name="bg1-u3043-fr.png" crc="20499429" ref="index"/>
+    <file name="letterx-u44223.png" crc="3914718277" ref="index"/>
+    <file name="letterx-u45453.png" crc="3914718277" ref="index"/>
+    <file name="shopping237-u45793.png" crc="417818851" ref="index"/>
+    <file name="shopping237-u46063.png" crc="417818851" ref="index"/>
+    <file name="shopping237-u46353.png" crc="417818851" ref="index"/>
+    <file name="1488822715_ic_cloud_download_48px-u5133.png" crc="4200940270" ref="index"/>
+    <file name="bg1-u1387-fr2.png" crc="17545805" ref="index"/>
+    <file name="u28023.png" crc="3778138079" ref="index"/>
+    <file name="u2802-r3.png" crc="4200940270" ref="index"/>
+    <file name="bg1-u3043-fr2.png" crc="4207357034" ref="index"/>
+    <file name="u27143.png" crc="3864063534" ref="index"/>
+    <file name="u2714-r3.png" crc="3896420549" ref="index"/>
+    <file name="u48093.png" crc="336411709" ref="index"/>
+    <file name="u4809-r3.png" crc="373797640" ref="index"/>
+    <file name="lady1289x431.png" crc="373486898" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="up-arrow-5_icon-iconscom_69823-u49243.png" crc="343655197" ref="index"/>
+  </folder>
+  <file name="index.html" crc="23794316" seo="true" mt="1489992681756" redirect="true"/>
+</manifest>

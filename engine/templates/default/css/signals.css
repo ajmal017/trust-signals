@@ -1,0 +1,86 @@
+.signal-wrapper {
+    background: #333;
+    margin-top: 10px;
+    padding: 10px;
+    color: #fff;
+}
+.signal-wrapper .col-md-12 {
+    padding: 0;
+    margin: 0;
+}
+.signal-wrapper .signal-symbol {
+    font-size: 30px;
+}
+.signal-wrapper .progress-bar {
+    background-color: #00a574 !important;
+}
+.signal-wrapper-down .progress-bar {
+    background-color: #A9262C !important;
+}
+.signal-wrapper .label-up {
+    background: #00A574 !important;
+    color: #fff;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 11px;
+}
+.signal-wrapper .label-down {
+    background: #A9262C !important;
+    color: #fff;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 11px;
+}
+.loadframe {
+    background: #333;
+}
+.open-stats {
+    cursor: pointer;
+    transition: .2s;
+}
+.open-stats:hover {
+    background: #fac795;
+}
+#chart-box-modal {
+    height: 300px;
+}
+iframe {
+    background: #333;
+}
+.frame-wrapper {
+    position: relative;
+}
+.loader-signal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    z-index: 25;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 55px;
+}
+.nav-pills > li > a.new-signal {
+    -webkit-animation: blink .3s infinite linear;
+    -o-animation: blink .3s infinite linear;
+    -moz-animation: blink .3s infinite linear;
+    animation: blink .3s infinite linear;
+}
+@-webkit-keyframes blink {
+    from { -webkit-transform: scale(1); background: #EFD5BB; color: #fff; }
+    to { -webkit-transform: scale(.9); background: #fac795; color: #fff; }
+}
+@-o-keyframes blink {
+    from { -o-transform: scale(1); background: #EFD5BB; color: #fff; }
+    to { -o-transform: scale(.9); background: #fac795; color: #fff; }
+}
+@-moz-keyframes blink {
+    from { -moz-transform: scale(1); background: #EFD5BB; color: #fff; }
+    to { -moz-transform: scale(.9); background: #fac795; color: #fff; }
+}
+@keyframes blink {
+    from { transform: scale(1); background: #EFD5BB; color: #fff; }
+    to { transform: scale(.9); background: #fac795; color: #fff; }
+}

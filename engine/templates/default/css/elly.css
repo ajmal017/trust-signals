@@ -1,0 +1,46 @@
+.text-typing {
+    width: 40em;
+    color:green;
+    font-size: 22px;
+    font-family: 'Marck Script', cursive;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 8s steps(50, end);
+    animation: type 8s steps(50, end);
+}
+@keyframes type {
+    from { width: 0; }
+}
+@-webkit-keyframes type {
+    from { width: 0; }
+}
+.indicator-one {
+    background: rgba(249, 249, 249, 0.72);
+    padding: 8px;
+    margin-top: -28px;
+}
+.indicator-one .progress {
+    padding-left: 7px;
+}
+.new-signal {
+    -webkit-animation: blinkvip .5s infinite linear;
+    -o-animation: blinkvip .5s infinite linear;
+    -moz-animation: blinkvip .5s infinite linear;
+    animation: blinkvip .5s infinite linear;
+}
+@-webkit-keyframes blinkvip {
+    from { -webkit-transform: scale(1); }
+    to { -webkit-transform: scale(.97); }
+}
+@-o-keyframes blinkvip {
+    from { -o-transform: scale(1); }
+    to { -o-transform: scale(.95); }
+}
+@-moz-keyframes blinkvip {
+    from { -moz-transform: scale(1); }
+    to { -moz-transform: scale(.95); }
+}
+@keyframes blinkvip {
+    from { transform: scale(1); }
+    to { transform: scale(.95); }
+}

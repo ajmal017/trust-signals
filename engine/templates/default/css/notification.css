@@ -1,0 +1,20 @@
+.notification {
+    padding: 10px;
+    color: #4C4C4C;
+    margin-bottom: 2px;
+}
+.notification-down {
+    background: #F1F1F1;
+}
+.notification-down span {
+    color: #DE7979;
+}
+.notification-up {
+    background: rgba(195, 195, 195, 0.57);;
+}
+.notification-up span {
+    color: #5B9A5B;
+}
+.notification:last-child {
+    margin-bottom: 10px;
+}

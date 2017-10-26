@@ -1,0 +1,1 @@
+<div class="analysis-box">%content%</div>

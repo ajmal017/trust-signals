@@ -1,0 +1,77 @@
+#reg {
+	padding: 10px;
+}
+/* SELECT */
+.jq-selectbox * {
+    padding: 0;
+    margin: 0;
+}
+.jq-selectbox__select-text {
+    padding: 5px 10px;
+    background: rgba(42, 187, 109, 0.99);
+    color: #fff;
+    cursor: pointer;
+    width: 200px;
+}
+.jq-selectbox__dropdown ul {
+    max-height: 200px;
+}
+.jq-selectbox__dropdown {
+    background: #333;
+    color: #fff;
+    width: 200px;
+}
+.jq-selectbox__dropdown li {
+    padding: 7px;
+}
+.jq-selectbox__dropdown li:hover {
+    background: rgba(255, 255, 255, .09);
+    cursor: pointer;
+}
+.jq-selectbox__trigger {
+  width: 10px;
+  height: 10px;
+  background-image: url(../img/arrow.png);
+  float: right;
+  margin-top: -20px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+/* SELECT END */
+.alert-message {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	color: #fff;
+	background: rgba(42, 115, 187, 0.99);
+	transition: .2s;
+}
+.header {
+	text-align: center;
+	padding: 20px;
+	border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+}
+.btn {
+	width: 100%;
+	display: block;
+}
+.pay-system-item {
+  margin: 7px auto !important;
+}
+.nav-pills li {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.pay-system-item-info {
+  text-align: center;
+}
+div {
+  font-family: Arial !important;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}

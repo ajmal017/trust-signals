@@ -1,0 +1,92 @@
+.timer {
+    text-align: right !important;
+    float: right;
+    padding-right: 15px;
+}
+.timer p {
+    font-size: 10px;
+}
+.out {
+    font-size: 13px;
+    background-color: rgba(255, 255, 255, 0.08);
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #121212;
+}
+.icon.empty {
+    background-color: #FF8900;
+}
+.icon {
+    padding: 10px;
+    border: 2px solid #fff;
+}
+.first {
+    padding-top: 10px;
+}
+.light-box {
+    color: #fff;
+    width: 620px;
+    height: 120px;
+    background: #282828;
+    padding: 13px;
+}
+h1 {
+    font-family: Calibri, Arial;
+}
+.pair {
+    font-size: 30px;
+    color: #e3e3e3;
+    border-bottom: 2px dashed #e3e3e3;
+    padding-bottom: 4px;
+}
+.description {
+    padding-top: 5px;
+    font-size: 11px;
+    color: #e3e3e3;
+}
+.green {
+    background: #00FF51;
+}
+.red {
+    background: #FF003A;
+}
+.start-banner:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.start-banner {
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 10px;
+    background-color: #4fa22e;
+    box-shadow: 0 3px #32611F;
+    margin-top: 27px;
+    cursor: pointer;
+    display: block;
+    color: #fff;
+}
+.out.read {
+    padding-bottom: 0;
+}
+.new-signal {
+    -webkit-animation: blinkvip .5s infinite linear;
+    -o-animation: blinkvip .5s infinite linear;
+    -moz-animation: blinkvip .5s infinite linear;
+    animation: blinkvip .5s infinite linear;
+}
+@-webkit-keyframes blinkvip {
+    from { -webkit-transform: scale(1); }
+    to { -webkit-transform: scale(.97); }
+}
+@-o-keyframes blinkvip {
+    from { -o-transform: scale(1); }
+    to { -o-transform: scale(.95); }
+}
+@-moz-keyframes blinkvip {
+    from { -moz-transform: scale(1); }
+    to { -moz-transform: scale(.95); }
+}
+@keyframes blinkvip {
+    from { transform: scale(1); }
+    to { transform: scale(.95); }
+}

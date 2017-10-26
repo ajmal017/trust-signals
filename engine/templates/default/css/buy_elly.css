@@ -1,0 +1,205 @@
+/* ALERT */
+.alert-message {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: #38A69E;
+	color: #fff;
+	display: none;
+	line-height: 40px;
+	padding-left: 20px;
+	z-index: 100000000 !important;
+}
+body {
+	background-image: radial-gradient(#fff, #eee);
+	font-family: "Roboto-Light", 'sans-serif';
+	font-size: 16px;
+}
+/* LISTS */
+.lists {
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+}
+.lists h2 p {
+	font-size: 0.34em;
+	font-weight: normal;
+	font-family: 'Roboto-Light', 'sans-serif';
+	line-height: 28px;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+.lists h2 span {
+	display: block;
+	font-size: 0.96em;
+	color: #555;
+	font-weight: normal;
+}
+.lists h2 p span {
+	display: inline;
+	color: #FA7A05;
+}
+.lists h2 {
+	width: 230px;
+	text-align: right;
+	font-size: 2.8em;
+	font-family: Play, Arial;
+	color: #000;
+	font-weight: bold;
+	margin-right: 20px;
+	display: inline-block;
+}
+.lists .prices {
+	margin-left: 0;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 24px;
+}
+.prices {
+	text-align: center;
+}
+.price-box a:hover {
+	text-decoration: none;
+	background-color: rgba(250, 122, 5, 0.24);
+}
+.price-box a {
+	position: absolute;
+	bottom: 20px;
+	left: 30px;
+	right: 30px;
+	padding: 5px;
+	display: block;
+	border: 2px solid #FA7A05;
+	border-radius: 4px;
+	font-size: 1.3em;
+	color: #FA7A05;
+	transition: .2s;
+}
+.price-box:hover > .price-circle {
+	background-color: #fff;
+}
+.price-box:hover {
+	transform: scale(1.04);
+	outline: 4px solid #FA7A05;
+	border-radius: 0;
+	background-image: linear-gradient(120deg, rgba(250, 122, 5, 0.19), rgba(169, 169, 169, 0.23));
+}
+.price-box {
+	transition: .2s;
+	font-family: Poiret;
+	display: inline-block;
+	height: 300px;
+	width: 230px;
+	border-radius: 4px;
+	background-image: linear-gradient(120deg, #f6f6f6 0px, #f6f6f6 50%, #f2f2f2 50%, #f2f2f2 100%);
+	position: relative;
+	text-align: center;
+	margin: 0 10px;
+	border: 1px solid rgba(0, 0, 0, 0.07);
+}
+.price-circle > * {
+	display: block;
+}
+.price-circle {
+	width: 140px;
+	height: 140px;
+	margin: 20px auto;
+	background-color: #ededed;
+	border-radius: 50%;
+	position: relative;
+	font-size: 1.2em;
+}
+.price-summ {
+	position: absolute;
+	top: 35px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 2.4em;
+	color: #FA7A05;
+}
+.price-name {
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+.price-amount {
+	position: absolute;
+	bottom: 13px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.more-packs {
+	clear: both;
+	text-align: center;
+}
+h1 span {
+	color: #FA7A05;
+}
+h1 {
+	font-size: 3em;
+	color: #000;
+	font-family: 'Roboto-Medium', Arial;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.basic {
+	padding-top: 15px;
+}
+.pay-system-item-info {
+	background-color: #fff;
+	margin: 30px 0;
+	width: 200px;
+	float: right;
+}
+.pay-system-item-info::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.pay-system-item {
+	display: inline-block;
+}
+.tab-content {
+	text-align: center;
+}
+.nav-pills > li {
+	display: inline-block;
+	float: none;
+	margin-bottom: 10px;
+}
+.nav-pills {
+	clear: both;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background-color: #FA7A05;
+}
+.nav>li>a {
+	color: #A69382;
+}
+#generation-link {
+	margin: 20px 0;
+}
+@media only screen and (max-width: 620px) {
+	h1 {
+		font-size: 2em;
+	}
+}
+@media only screen and (max-width: 520px) {
+	h1 span, .desc span {
+		display: block;
+	}
+	.lists h2 {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	.lists h2 p span {
+		display: none;
+	}
+	.nav-pills > li {
+		display: block;
+	}
+}

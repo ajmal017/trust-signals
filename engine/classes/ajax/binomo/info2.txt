@@ -1,0 +1,1 @@
+{"success":true,"data":{"authtoken":"874f0a49ef26ae3052da3e249d7bcce7","url":"/ru/cashier"},"errors":[]}

@@ -1,0 +1,1 @@
+<span class="label-stats-%status%">%text%</span>

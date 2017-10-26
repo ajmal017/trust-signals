@@ -1,0 +1,111 @@
+php_flag display_errors off
+php_flag display_startup_errors off
+
+
+
+addDefaultCharset UTF-8
+SetEnv TZ timezone
+SetEnv TZ Europe/Moscow
+php_value upload_max_filesize 100M
+php_value post_max_size 100M
+
+php_value max_execution_time 300
+
+#DirectoryIndex wait.php
+
+
+# change adress
+ErrorDocument 404 https://trust-signals.com/notfound/
+
+RewriteEngine On
+
+#SSL
+
+
+
+RewriteRule ^orange/$ index.php?page=ohome [NC,L]
+
+RewriteRule ^analysis/$ index.php?page=analysis [NC,L]
+RewriteRule ^notfound/$ index.php?page=notfound [NC,L]
+RewriteRule ^home/stats/$ index.php?page=home_stats [NC,L]
+RewriteRule ^home/brokers/$ index.php?page=brokers [NC,L]
+RewriteRule ^home/faq/$ index.php?page=home_faq [NC,L]
+RewriteRule ^home/support/$ index.php?page=home_support [NC,L]
+RewriteRule ^home/news/$ index.php?page=home_news [NC,L]
+RewriteRule ^home/news_(\d+)/$ index.php?page=home_news&id=$1 [NC,L]
+RewriteRule ^auth/(\w+)/(.*)$ index.php?page=auth&auth=$1&query=$2 [NC,L]
+RewriteRule ^logout/$ index.php?page=logout [NC,L]
+RewriteRule ^cabinet/$ index.php?page=cabinet [NC,L]
+RewriteRule ^bonuses/$ index.php?page=admin&admin=bonuses [NC,L]
+RewriteRule ^new/$ index.php?page=index&new [NC,L]
+RewriteRule ^home/$ index.php?page=index [NC,L]
+RewriteRule ^profile/$ index.php?page=profile [NC,L]
+RewriteRule ^mails/$ index.php?page=mails [NC,L]
+RewriteRule ^notification/$ index.php?page=notification [NC,L]
+RewriteRule ^demo/$ index.php?page=demo [NC,L]
+RewriteRule ^key/$ index.php?page=key [NC,L]
+RewriteRule ^support/$ index.php?page=support [NC,L]
+RewriteRule ^faq/$ index.php?page=faq [NC,L]
+RewriteRule ^faq-elly/$ index.php?page=faq_elly [NC,L]
+RewriteRule ^stats/$ index.php?page=stats [NC,L]
+RewriteRule ^vip/$ index.php?page=vip [NC,L]
+RewriteRule ^buy_elly/$ index.php?page=buy_elly [NC,L]
+RewriteRule ^buy_mobile/$ index.php?page=buy_mobile [NC,L]
+RewriteRule ^buy/$ index.php?page=buy [NC,L]
+RewriteRule ^pay/$ index.php?page=pay [NC,L]
+RewriteRule ^ooopay/$ index.php?page=ooopay_result [NC,L]
+RewriteRule ^ooopay/result/$ index.php?page=ooopay [NC,L]
+RewriteRule ^reg/$ index.php?page=reg [NC,L]
+RewriteRule ^remember/$ index.php?page=remember [NC,L]
+RewriteRule ^chart/(\w+\/\w+)/$ index.php?page=ajax&ajax-handle=chart&symbol=$1 [NC,L]
+RewriteRule ^activate/(\w+)/$ index.php?page=ajax&ajax-handle=activate&email=$1 [NC,L]
+RewriteRule ^winperc/$ index.php?page=ajax&ajax-handle=winperc [NC,L]
+RewriteRule ^insert/$ index.php?page=ajax&ajax-handle=insert [NC,L]
+RewriteRule ^insert_analysis/$ index.php?page=ajax&ajax-handle=insert_analysis [NC,L]
+RewriteRule ^insert_(\d+)/$ index.php?page=ajax&ajax-handle=insert&type=$1 [NC,L]
+RewriteRule ^delete/$ index.php?page=ajax&ajax-handle=delete [NC,L]
+RewriteRule ^settings/$ index.php?page=admin&admin=settings [NC,L]
+RewriteRule ^patterns/$ index.php?page=admin&admin=patterns [NC,L]
+RewriteRule ^fq/$ index.php?page=admin&admin=fq [NC,L]
+RewriteRule ^fq-elly/$ index.php?page=admin&admin=fq_elly [NC,L]
+RewriteRule ^strs/$ index.php?page=admin&admin=strs [NC,L]
+RewriteRule ^strs_(\d+)/$ index.php?page=admin&admin=strs&id=$1 [NC,L]
+RewriteRule ^strs_add/$ index.php?page=admin&admin=strs&add [NC,L]
+RewriteRule ^news_add/$ index.php?page=admin&admin=nws&add [NC,L]
+RewriteRule ^nws/$ index.php?page=admin&admin=nws [NC,L]
+RewriteRule ^ednews_(\d+)/$ index.php?page=admin&admin=nws&id=$1 [NC,L]
+RewriteRule ^news/$ index.php?page=admin&admin=news [NC,L]
+RewriteRule ^supp/page(\d+)$ index.php?page=admin&admin=supp&num=$1 [NC,L]
+RewriteRule ^supp/$ index.php?page=admin&admin=supp [NC,L]
+RewriteRule ^supp/dialog_(.*)$ index.php?page=admin&admin=supp&str=$1 [NC,L]
+RewriteRule ^posts/$ index.php?page=admin&admin=posts [NC,L]
+RewriteRule ^statistic/$ index.php?page=admin&admin=statistic [NC,L]
+RewriteRule ^statistic/page(\d+)$ index.php?page=admin&admin=statistic&num=$1 [NC,L]
+RewriteRule ^orders/$ index.php?page=admin&admin=orders [NC,L]
+RewriteRule ^includes/$ index.php?page=admin&admin=includes [NC,L]
+RewriteRule ^redirect/$ index.php?page=admin&admin=redirect [NC,L]
+RewriteRule ^redirect/page(\d+)$ index.php?page=admin&admin=redirect&num=$1 [NC,L]
+RewriteRule ^users/$ index.php?page=admin&admin=users [NC,L]
+RewriteRule ^systems/$ index.php?page=admin&admin=systems [NC,L]
+RewriteRule ^windows/$ index.php?page=admin&admin=windows [NC,L]
+RewriteRule ^users/page(\d+)$ index.php?page=admin&admin=users&num=$1 [NC,L]
+RewriteRule ^users/(.*)_page(\d+)$ index.php?page=admin&admin=users&search=$1&num=$2 [NC,L]
+RewriteRule ^users/(.*)$ index.php?page=admin&admin=users&search=$1 [NC,L]
+RewriteRule ^orders/page(\d+)$ index.php?page=admin&admin=orders&num=$1 [NC,L]
+RewriteRule ^orders/(.*)_page(\d+)$ index.php?page=admin&admin=orders&search=$1&num=$2 [NC,L]
+RewriteRule ^orders/(.*)$ index.php?page=admin&admin=orders&search=$1 [NC,L]
+RewriteRule ^strategies/$ index.php?page=strategies [NC,L]
+RewriteRule ^strategies_(\d+)/$ index.php?page=watch_strategy&id=$1 [NC,L]
+RewriteRule ^elly/$ index.php?page=elly [NC,L]
+RewriteRule ^web/$ index.php?page=web [NC,L]
+RewriteRule ^binomo/$ index.php?page=binomo [NC,L]
+RewriteRule ^news_home/$ index.php?page=news_home [NC,L]
+RewriteRule ^news_(\d+)/$ index.php?page=news_home&id=$1 [NC,L]
+RewriteRule ^ln/(\d+)/$ index.php?page=ln&id=$1 [NC,L]
+RewriteRule ^banned/$ index.php?page=banned [NC,L]
+RewriteRule ^bauth/(.*)/(.*)/$ index.php?page=bauth&email=$1&password=$2 [NC,L]
+RewriteRule ^eauth/(.*)/(.*)/$ index.php?page=eauth&email=$1&password=$2 [NC,L]
+RewriteRule ^getbid_(.*)/$ index.php?page=getbid&symbol=$1 [NC,L]
+
+#API
+RewriteRule ^api/(.*)/$ index.php?page=api&data=$1 [NC,L]

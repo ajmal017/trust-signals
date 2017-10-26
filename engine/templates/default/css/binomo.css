@@ -1,0 +1,21 @@
+.web-change-account {
+  right: 70px;
+  top: 40px;
+  left: auto;
+}
+.web-clear {
+  top: 100px;
+}
+.web-change-box {
+  height: 0;
+}
+.web-info {
+  height: 190px;
+}
+.web-info  .web-chrome-info {
+  color: #333e3b;
+  margin-left: -15px;
+  font-size: 16px;
+  padding-top: 10px;
+  display: block;
+}

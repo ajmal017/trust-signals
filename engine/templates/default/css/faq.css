@@ -1,0 +1,16 @@
+.panel-heading {
+    background: #333 !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+.panel-body, .panel-collapse {
+    background: #509480 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    color: #fff;
+}
+.panel-default {
+    border: none !important;
+    border-radius: 0 !important;
+}

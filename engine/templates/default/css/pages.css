@@ -1,0 +1,376 @@
+h1, h2, h3, h4, h5, p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+/* PROFILE BOX */
+.profile-box .main-box-body {
+    padding: 0;
+}
+.profile-box .profile-box-header {
+    padding: 30px 20px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px 3px 0 0;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+}
+.profile-box .profile-img {
+    border-radius: 18%;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+    width: 130px;
+    height: 130px;
+    border: 5px solid #fff;
+}
+.profile-box h2 {
+    padding: 10px 0 0;
+    margin: 0;
+    font-weight: 600;
+}
+.profile-box .job-position {
+    font-weight: 400;
+    color: #fff;
+    font-size: 0.875em;
+}
+.profile-box .profile-box-footer {
+    background: #03a9f4;
+    border-radius: 0 0 3px 3px;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+}
+.profile-box .profile-box-footer a {
+    display: block;
+    background: #03a9f4;
+    width: 33%;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 15px 10px;
+    color: #fff;
+}
+.profile-box .profile-box-footer a:first-child {
+    border-radius: 0 0 0 3px;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+}
+.profile-box .profile-box-footer a:last-child {
+    border-radius: 0 0 3px 0;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+}
+.profile-box .profile-box-footer a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.profile-box .profile-box-footer .value {
+    display: block;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.profile-box .profile-box-footer .label {
+    display: block;
+    font-size: 0.875em;
+    font-weight: 600;
+}
+
+.profile-box-menu .main-box-body {
+    padding: 0;
+}
+.profile-box-menu .profile-box-header {
+    padding: 30px 20px;
+    color: #fff;
+    border-radius: 3px 3px 0 0;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile-box-menu .profile-img {
+    border-radius: 18%;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+    width: 110px;
+    height: 110px;
+    float: left;
+    margin-right: 15px;
+    border: 5px solid #fff;
+}
+.profile-box-menu h2 {
+    padding: 20px;
+    margin: 0;
+}
+.profile-box-menu .job-position {
+    font-weight: 600;
+    font-size: 0.875em;
+}
+.profile-box-menu .profile-box-content .menu-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.profile-box-menu .profile-box-content .menu-items li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid #e7ebee;
+    padding: 0 20px;
+    font-size: 0.875em;
+    transition: background-color 0.15s ease-in-out 0s;
+    color: #212121;
+}
+.profile-box-menu .profile-box-content .menu-items li a:hover {
+    background-color: #e7ebee;
+    text-decoration: none;
+}
+.profile-box-menu .profile-box-content .menu-items li a i {
+    width: 24px;
+}
+.profile-box-menu .profile-box-content .menu-items li a span.label {
+    margin-top: 10px;
+}
+.profile-box-menu .profile-box-content .menu-items li:last-child a {
+    border-bottom: none;
+}
+
+.profile-box-stats .main-box-body {
+    padding: 0;
+}
+.profile-box-stats .profile-box-header {
+    border-radius: 3px 3px 0 0;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+    padding: 30px 20px 70px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile-box-stats .profile-img {
+    border-radius: 18%;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+    border: 5px solid #fff;
+    bottom: -45px;
+    float: left;
+    height: 90px;
+    left: 50%;
+    margin-left: -45px;
+    position: absolute;
+    width: 90px;
+}
+.profile-box-stats h2 {
+    padding: 0 0 8px;
+    margin: 0;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.1;
+    font-size: 1.5em;
+}
+.profile-box-stats .job-position {
+    font-weight: 600;
+    font-size: 0.875em;
+}
+.profile-box-stats .profile-box-footer {
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.profile-box-stats .profile-box-footer a {
+    display: block;
+    width: 33%;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 15px 10px;
+    color: #212121;
+}
+.profile-box-stats .profile-box-footer a:hover {
+    text-decoration: none;
+}
+.profile-box-stats .profile-box-footer .value {
+    display: block;
+    font-size: 1.8em;
+    font-weight: 300;
+}
+.profile-box-stats .profile-box-footer .label {
+    display: block;
+    font-size: 1em;
+    font-weight: 300;
+    color: #212121;
+}
+
+.profile-box-contact .main-box-body {
+    padding: 0;
+}
+.profile-box-contact .profile-box-header {
+    padding: 30px 20px;
+    color: #fff;
+    border-radius: 3px 3px 0 0;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+}
+.profile-box-contact .profile-img {
+    border-radius: 18%;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+    width: 110px;
+    height: 110px;
+    float: left;
+    margin-right: 15px;
+    border: 5px solid #fff;
+}
+.profile-box-contact h2 {
+    padding: 8px 0 3px;
+    margin: 0;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.profile-box-contact .job-position {
+    font-weight: 300;
+    font-size: 0.875em;
+}
+.profile-box-contact .profile-box-footer {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.profile-box-contact .profile-box-footer a {
+    display: block;
+    width: 33%;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 15px 10px;
+    color: #212121;
+}
+.profile-box-contact .profile-box-footer a:hover {
+    text-decoration: none;
+}
+.profile-box-contact .profile-box-footer .value {
+    display: block;
+    font-size: 1.8em;
+    font-weight: 300;
+}
+.profile-box-contact .profile-box-footer .label {
+    display: block;
+    font-size: 1em;
+    font-weight: 300;
+    color: #212121;
+}
+.profile-box-contact .contact-details {
+    padding: 4px 0 0;
+    margin: 0;
+    list-style: none;
+    font-size: 0.875em;
+    font-weight: 300;
+}
+.profile-box-contact .contact-details li i {
+    width: 12px;
+    text-align: center;
+    margin-right: 3px;
+}
+/* PROFILE BOX END */
+.box-support {
+    padding: 20px;
+    background: #F9F9F9;
+    box-shadow: #C7C7C7 0 0 5px;
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 0.8em;
+    font-weight: normal !important;
+}
+.form-group-box  {
+    padding: 0px;
+    padding-right: 10px;
+}
+.form-group-box-left {
+    padding: 0px;
+    padding-left: 10px;
+}
+.profile-box-contact h2 {
+    padding: 20px 0;
+    padding-top: 10px;
+}
+.profile-box-contact h3 {
+    margin-top: 0px;
+}
+/* HEADER */
+.navbar-inverse {
+    background-color: #FFF;
+    border-color: #D5D5D5;
+}
+.jumbotron {
+    background: #327C54 url(/grbg.png) left repeat;;
+    color: #fff;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #327C54;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+}
+.header-active {
+    border-bottom: 4px solid #327C54;
+}
+/* HEADER END */
+/* PBAR */
+.progress {
+    height: 10px;
+}
+.trader-box {
+    height: 480px;
+}
+.popover {
+    z-index: 1010 !important;
+}
+/* PBAR END*/
+.notification {
+    padding: 10px;
+    color: #505050;
+    margin-bottom: 2px;
+}
+.notification-down {
+    background: rgba(249, 249, 249, 0.9);
+}
+.notification-down span {
+    color: #D06363;
+}
+.notification-up {
+    background: rgba(206, 206, 206, 0.78);
+}
+.notification-up span {
+    color: #63A763;
+}
+.notification:last-child {
+    margin-bottom: 10px;
+}
+.label-stats-0 {
+    background: #D06363;
+    padding: 4px;
+    color: #FFF !important;
+    font-size: 11px;
+    
+}
+.label-stats-1 {
+    background: #63A763;
+    padding: 4px;
+    color: #FFFFFF !important;
+    font-size: 11px;
+    
+    
+	
+}
+.load-more-information:hover {
+    background: #333;
+    color: #eee;
+}
+.load-more-information {
+    background: #eee;
+    display: block;
+    padding: 20px 50px;
+    border-radius: 5px;
+    width: 270px;
+    margin: 10px auto;
+    cursor: pointer;
+}

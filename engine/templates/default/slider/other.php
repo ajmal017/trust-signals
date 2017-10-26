@@ -1,0 +1,1 @@
+<a class="other-news" href="%URI%/home/news/">Другие новости <span class="glyphicon glyphicon-play"></span></a>

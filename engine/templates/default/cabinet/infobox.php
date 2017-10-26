@@ -1,0 +1,1 @@
+<p class='profile-vip-lock alert alert-info'>%text%</p>

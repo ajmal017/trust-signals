@@ -1,0 +1,105 @@
+.wrapper-signals {
+    height: 250px;
+}
+.wrapper-signals .alert {
+    height: 242px;
+    background: #333;
+    color: #fff;
+    border-color: #000;
+    border-radius: 0;
+}
+.wrapper-signals .alert span {
+    font-weight: 700;
+    color: #00A574;
+}
+#signals-box .new-signal {
+    -webkit-animation: blinkvip .5s infinite linear;
+    -o-animation: blinkvip .5s infinite linear;
+    -moz-animation: blinkvip .5s infinite linear;
+    animation: blinkvip .5s infinite linear;
+}
+@-webkit-keyframes blinkvip {
+    from { -webkit-transform: scale(1); }
+    to { -webkit-transform: scale(.97); }
+}
+@-o-keyframes blinkvip {
+    from { -o-transform: scale(1); }
+    to { -o-transform: scale(.95); }
+}
+@-moz-keyframes blinkvip {
+    from { -moz-transform: scale(1); }
+    to { -moz-transform: scale(.95); }
+}
+@keyframes blinkvip {
+    from { transform: scale(1); }
+    to { transform: scale(.95); }
+}
+
+.news-box {
+    font-size: 16px;
+    height: 80px;
+    margin: 0 3px;
+    overflow: hidden;
+}
+.news-box .news-color-0 {
+    font-size: 18px;
+}
+.news-box .news-color-1 {
+    color: #89E2CD !important;
+    font-size: 16px;
+}
+.news-box .news-color-1 span {
+    color: #fff;
+}
+.vip-page .open-settings {
+    height: 60px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 60px;
+    color: #fff;
+    background: #509480;
+    display: block;
+    margin-bottom: 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+.vip-page .open-settings:hover {
+    background: #72B7A3;
+}
+.news-box .news-text {
+    background: #333;
+    overflow: hidden;
+    color: #fff;
+    padding: 5px;
+}
+.news-box .news-calendar span {
+    background: #F44336;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    float: left;
+    margin-right: 5px;
+    transition: .5s;
+    cursor: pointer;
+}
+.news-box .news-calendar span:hover {
+    background: #EC6C63;
+}
+.info-text-link {
+    color: #fff;
+    float: right;
+    padding-bottom: 2px;
+    font-size: 12px;
+    transition: .2s;
+    border-bottom: 1px dotted #fff;
+}
+.info-text-link:hover {
+    text-decoration: none;
+    border-bottom: 1px dashed #fff;
+    color: #fff;
+}
+.box-timer {
+    position: absolute;
+    bottom: 5px;
+    right:5px;
+}
