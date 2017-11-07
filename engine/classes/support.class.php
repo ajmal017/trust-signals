@@ -1,5 +1,6 @@
 <?php
 class Support extends Core {
+
     public function getTitle() {
         $adds = new Additions();
         if($adds->isAuth()) {
@@ -9,6 +10,7 @@ class Support extends Core {
             $adds->redirect(URI."/home/");
         }
     }
+
     public function getContent() {
         $adds = new Additions();
         global $mysqli;
@@ -74,4 +76,3 @@ class Support extends Core {
         echo $data->show();
     }
 }
-?>

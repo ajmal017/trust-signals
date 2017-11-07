@@ -1,8 +1,10 @@
 <?php
 class Home_support extends Core {
+
 	public function getTitle() {
 		echo "Контакты";
 	}
+
 	public function getContent() {
 		$date = date("Y-m-d");
 		$this->changeLauncher("ospage");
@@ -51,4 +53,3 @@ class Home_support extends Core {
 		}
 	}
 }
-?>
