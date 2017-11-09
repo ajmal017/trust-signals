@@ -18,7 +18,10 @@ class Home extends Core {
                 if($auth->num_rows == 1) {
                     $data = $mysqli->assoc($auth);
                     $_SESSION['user'] = $data['id'];
-                    setcookie("user", $data['id']);
+
+
+
+
                     if($adds->toInteger($data['lasttime']) > 0) {
                         $mysqli->query("UPDATE `users` SET `lasttime_15` = '30', `lasttime_30` = '30' WHERE `id` = '{$data['id']}'");
                     }

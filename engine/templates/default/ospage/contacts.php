@@ -19,15 +19,14 @@
                     </div>
                 </div>
 
-                <textarea name="comment" id="comment" placeholder="Сообщение"></textarea>
-
+                <textarea name="comment" id="supp-text" placeholder="Сообщение"></textarea>
 
                 <div class="row">
-                    <div class="g-recaptcha" data-sitekey="6LcC0QwUAAAAAPxKSO66ktivhgHO0McX7Uew1cMj"></div>
+                    <div class="g-recaptcha col-md-12" data-sitekey="6LeG7DcUAAAAABtKKnWGMU9WCkCwOL2zjCN1LygQ"></div>
                 </div>
 
-
-                <button type="button" id="supp-btn" class="btn btn-default btn-lg"><span class="fa fa-envelope"></span> Отправить</button>
+                <br>
+                <button type="button" id="supp-btn" class="btn btn-success btn-lg"><span class="fa fa-envelope"></span> Отправить</button>
             </div>
         </div>
         <div class="col-md-4">

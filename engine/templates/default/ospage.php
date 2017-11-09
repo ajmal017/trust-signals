@@ -15,14 +15,161 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/owl.theme.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/assets/css/owl.carousel.css" media="screen">
 
+
     <!-- REVOLUTION BANNER CSS SETTINGS -->
+    <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/engine/templates/default/js/ospage.js"></script>
 
     <link rel="stylesheet" type="text/css" href="/assets/css/settings.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css" media="screen">
 </head>
 
 <body>
+<style>
+    .alert-message {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding: 30px;
+        font-size: 1.2em;
+        color: #fff;
+        text-transform: uppercase;
+        background: #f0937d;
+        z-index: 101;
+    }
+    .alert-message.success {
+        background-color: #74c56b;
+    }
+    .stats {
+        overflow-x: hidden;
+    }
 
+    .notification {
+        padding: 10px;
+        color: #505050;
+        margin-bottom: 2px;
+    }
+    .notification-down {
+        background: rgba(249, 249, 249, 0.9);
+    }
+    .notification-down span {
+        color: #D06363;
+    }
+    .notification-up {
+        background: rgba(206, 206, 206, 0.78);
+    }
+    .notification-up span {
+        color: #63A763;
+    }
+    .notification:last-child {
+        margin-bottom: 10px;
+    }
+    .label-stats-0 {
+        background: #D06363;
+        padding: 4px;
+        color: #FFF !important;
+        font-size: 11px;
+    }
+    .label-stats-1 {
+        background: #63A763;
+        padding: 4px;
+        color: #FFFFFF !important;
+        font-size: 11px;
+    }
+    .stats {
+        box-shadow: inset 0 2px 2px rgba(0,0,0,.3);
+    }
+
+    .broker-logo {
+        height: 120px;
+        background-image: url(http://trust-signals.com/engine/templates/default/img/brokers/broker1.jpg);
+        background-size: cover;
+        background-position: center center;
+        border-radius: 4px;
+    }
+    .broker-table {
+        display: table;
+        width: 102%;
+        border-spacing: 2px;
+        font-size: 14px;
+        margin: 0 -2px;
+    }
+    .broker-row {
+        display: table-row;
+        width: 100%;
+    }
+    .broker-name {
+        padding: 0 10px;
+    }
+    .broker-value {
+        width: 40px;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .circle-odds.small {
+        font-size: 8px;
+    }
+    .circle-odds {
+        background-color: #ff8400;
+        color: #fff;
+        font-family: "RobotoBlack";
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+    .circle-odds.white {
+        background-color: #F9F7F7;
+        color: #FFCA90;
+    }
+    .broker-row > div {
+        display: table-cell;
+        background: #F5F5F5;
+        margin: 2px;
+        border-radius: 3px;
+    }
+    .broker-row .broker-value {
+        background-color: rgba(255, 132, 0, 0.05);
+    }
+    .broker-el {
+        width: 25%;
+        float: left;
+        border: 4px solid #fff;
+    }
+    .brokers {
+        background-color: #fff;
+        padding: 2px;
+    }
+    .brokers::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .broker-link a.white {
+        background-color: #5cce54;
+        color: #fff;
+    }
+    .broker-link a {
+        display: block;
+        padding: 10px;
+        background-color: #ff8400;
+        border-radius: 4px;
+        font-family: "Russo One";
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        width: 100%;
+    }
+
+
+
+
+</style>
 <!-- Container -->
 
 <div id="container">
@@ -137,14 +284,27 @@
 
 <!-- End Container -->
 
+
 <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.migrate.js"></script>
 <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.imagesloaded.min.js"></script>
 <script type="text/javascript" src="/assets/js/retina-1.1.0.min.js"></script>
 <script type="text/javascript" src="/assets/js/plugins-scroll.js"></script>
-<script type="text/javascript" src="/assets/js/gmap3.min.js"></script>
 <script type="text/javascript" src="/assets/js/script.js"></script>
-<script type="text/javascript" src="/engine/templates/default/js/ospage.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.migrate.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.imagesloaded.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="/assets/js/plugins-scroll.js"></script>
+<script type="text/javascript" src="/assets/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.countTo.js"></script>
+
+<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+
+<script type="text/javascript" src="/assets/js/script.js"></script>
+
 </body>
 </html>

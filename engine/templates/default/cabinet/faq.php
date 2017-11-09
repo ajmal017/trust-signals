@@ -1,12 +1,12 @@
 <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="heading-%id%">
+    <div class="panel-heading" role="tab">
         <h4 class="panel-title">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-%id%" aria-expanded="true" aria-controls="collapse-%id%">
-                <span class="glyphicon glyphicon-question-sign"></span> %title%
-            </a>
+
+                <span class="fa fa-question-circle"></span> %title%
+
         </h4>
     </div>
-    <div id="collapse-%id%" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-%id%">
+    <div  >
         <div class="panel-body">%message%</div>
     </div>
 </div>
