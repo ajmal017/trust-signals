@@ -166,7 +166,10 @@
         width: 100%;
     }
 
-
+    .header-auth {
+        width: 33%;
+        text-align: center;
+    }
 
 
 </style>
@@ -214,9 +217,23 @@
                         <li><a class="active" href="%uri%/home/stats/">Статистика</a> </li>
                         <li><a class="active" href="%uri%/home/faq/">FAQ</a> </li>
                         <li><a class="active" href="%uri%/home/support/">Контакты</a> </li>
+
+
+                        <!-ifAUTH>
+                        <!-end>
+                        <!-else>
+                        <li class="hidden-list open-auth"><a href="#">Войти</a></li><li class="hidden-list open-reg"><a href="#" class="sp_notify_prompt">Регистрация</a></li>
+                        <!-endelse>
                     </ul>
+        </nav>
+</div>
+<div class="header-auth">
+    <!-ifAUTH>
                 </div>
                 <!-- /.navbar-collapse -->
+
+
+
 
             </div>
             <!-- /.container -->
