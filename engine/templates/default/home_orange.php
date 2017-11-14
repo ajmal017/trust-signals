@@ -50,8 +50,8 @@
                             <!-ifAUTH>
                             <!-end>
                             <!-else>
-                            <li class="hidden-list open-auth"><a href="#">Войти</a></li>
-                            <li class="hidden-list open-reg"><a href="#" class="sp_notify_prompt">Регистрация</a></li>
+                            <li class="hidden-list open-auth"><button class="btn btn-success btn-lg" href="#">Войти</button></li>
+                            <li class="hidden-list open-reg"><button class="btn btn-success btn-lg" href="#" class="sp_notify_prompt">Регистрация</button></li>
                             <!-endelse>
                         </ul>
             </nav>
@@ -216,15 +216,15 @@
     <div class="container">
         <div class="project-title title">
             <h2 class="box-header">Тарифы и цены</h2>
-            <p>Список пакетов нашего сервиса практически не ограничен. Подберите свой пакет по доступной цене от 7 долларов</p>
+            <p>Список пакетов нашего сервиса практически не ограничен. Подберите свой пакет по доступной цене от 5 долларов</p>
         </div>
         <div class="news-box">
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <div class="price-box animate">
                         <div class="price-circle">
-                            <span class="price-summ">7$</span>
-                            <span class="price-amount">1 день</span>
+                            <span class="price-summ">5$</span>
+                            <span class="price-amount">3 дня</span>
                         </div>
                         <div class="price-name">Базовый</div>
                         <!-ifAUTH>
@@ -238,7 +238,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="price-box animate">
                         <div class="price-circle">
-                            <span class="price-summ">35$</span>
+                            <span class="price-summ">25$</span>
                             <span class="price-amount">7 дней</span>
                         </div>
                         <div class="price-name">VIP</div>
@@ -321,15 +321,22 @@
     <div class=" copyright">
         <div class="container ">
             <div class="pull-center">
-                <a class="active" href="%uri%/home/brokers/">Брокеры</a> |
-                <a class="active" href="%uri%/home/stats/">Статистика</a> |
-                <a class="active" href="%uri%/home/faq/">FAQ</a> |
-                <a class="active" href="%uri%/home/support/">Контакты</a>
-            </div>
-            <br>
-            <div class="pull-left">
                 <p class=""> &copy; 2016-2017 Trust Signals. Все права защищены, копирование материала строго запрещено!</p>
             </div>
+            <div class="pull-center">
+                <div class="header-menu">
+                <nav>
+                    <ul>
+                        <li><a href="%uri%/home/brokers/">Брокеры</a></li>
+                        <li><a href="%uri%/home/stats/">Статистика</a></li>
+                        <li><a href="%uri%/home/faq/">FAQ</a</li>
+                        <li><a href="%uri%/home/support/">Контакты</a></li>
+                    </ul>
+                </nav>
+                </div>
+
+            </div>
+
         </div>
     </div>
 </footer>

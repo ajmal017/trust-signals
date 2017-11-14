@@ -191,9 +191,9 @@ After checking the time of payment by the administrator will be credited!</p>
   <div class="col-md-6" style="    background-color: #E6463A;
 	color: white;
 	padding: 10px;"><b>Тарифы VIP раздела.</b><br>
-На 1 неделю -- 35$ <br>
-На 1 месяц + ROBOT-- 60$ <br>
-На 1 Год -- 99$ </div>
+На 1 неделю -- 25$ <br>
+На 1 месяц + ROBOT -- 45$ <br>
+На 1 Год + ROBOT -- 99$ </div>
 
 
 
@@ -201,9 +201,9 @@ After checking the time of payment by the administrator will be credited!</p>
   <div class="col-md-6" style="background-color: #009688;
 	color: white;
 	padding: 10px;"><b>Тарифы базавого раздела.</b><br>
-24 часа -- 7$ <br>
-48 часов -- 10$ <br>
-72 часа -- 14$ </div>
+3 дня -- 5$ <br>
+7 дней -- 10$ <br>
+30 дней -- 14$ </div>
 
 		<div class="col-md-12" style="margin-top: 10px; font-size: 15px;
 	background: rgba(255, 200, 0, 0.28);">
@@ -249,9 +249,9 @@ After checking the time of payment by the administrator will be credited!</cente
   <div class="col-md-6" style="    background-color: #E6463A;
 	color: white;
 	padding: 10px;"><b>Тарифы VIP раздела.</b><br>
-На 1 неделю -- 35$ <br>
-На 1 месяц + Robot -- 60$ <br>
-На 1 Год -- 99$ </div>
+      На 1 неделю -- 25$ <br>
+      На 1 месяц + ROBOT -- 45$ <br>
+      На 1 Год + ROBOT -- 99$ </div>
 
 
 
@@ -259,9 +259,9 @@ After checking the time of payment by the administrator will be credited!</cente
   <div class="col-md-6" style="background-color: #009688;
 	color: white;
 	padding: 10px;"><b>Тарифы базавого раздела.</b><br>
-24 часа -- 7$ <br>
-48 часов -- 10$ <br>
-72 часа -- 14$ </div>
+      3 дня -- 5$ <br>
+      7 дней -- 10$ <br>
+      30 дней -- 14$ </div>
 
 		<div class="col-md-12" style="margin-top: 10px; font-size: 15px;
 	background: rgba(255, 200, 0, 0.28);">

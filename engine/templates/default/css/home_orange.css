@@ -259,6 +259,14 @@ section {
 	text-transform: uppercase;
 	font-family: Play, Arial;
 }
+.header-menu ul li a {
+	text-decoration: underline;
+}
+
+.header-menu ul li a:hover {
+	text-decoration: none !important;
+}
+
 .header-top .bt {
 	width: 160px;
 	padding: 10px 0;

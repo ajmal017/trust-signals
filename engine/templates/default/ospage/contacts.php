@@ -5,7 +5,7 @@
             <h2 class="box-header">Служба поддержки</h2>
         </div>
         <div class="col-md-8">
-            <h4>Задавайте нам Ваши вопросы здесь.</h4>
+            <div class="row"><div class="col-md-12"><h4>Задавайте нам Ваши вопросы здесь.</h4></div></div>
             <div id="contact-form">
                 <div class="row">
                     <div class="col-md-6">
@@ -19,14 +19,21 @@
                     </div>
                 </div>
 
-                <textarea name="comment" id="supp-text" placeholder="Сообщение"></textarea>
+                <div class="row">
+                    <div class="col-md-12">
+                        <textarea name="comment" id="supp-text" placeholder="Сообщение"></textarea>
+                    </div>
+                </div>
 
                 <div class="row">
                     <div class="g-recaptcha col-md-12" data-sitekey="6LeG7DcUAAAAABtKKnWGMU9WCkCwOL2zjCN1LygQ"></div>
                 </div>
-
                 <br>
-                <button type="button" id="supp-btn" class="btn btn-success btn-lg"><span class="fa fa-envelope"></span> Отправить</button>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="button" id="supp-btn" class="btn btn-success btn-lg"><span class="fa fa-envelope"></span> Отправить</button>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col-md-4">

@@ -87,8 +87,8 @@
   <div class="col-md-6" style="    background-color: #E6463A;
     color: white;
     padding: 10px;"><b>Тарифы VIP раздела.</b><br>
-На 1 неделю -- 2450 рублей <br>
-На 1 месяц -- 3500 рублей <br>
+На 1 неделю -- 1599 рублей <br>
+На 1 месяц -- 2679 рублей <br>
 На 1 Год -- 6999 рублей </div>
 
 
@@ -97,14 +97,14 @@
   <div class="col-md-6" style="background-color: #009688;
     color: white;
     padding: 10px;"><b>Тарифы базавого раздела.</b><br>
-24 часа -- 495 рублей <br>
-48 часов -- 615 рублей <br>
-72 часа -- 999 рублей </div>
+3 дня -- 299 рублей <br>
+7 дней -- 499 рублей <br>
+30 дней -- 899 рублей </div>
 
 <div class="col-md-12" style="margin-top: 10px;">
 <center style="">
 <iframe frameborder="0" allowtransparency="true" scrolling="no" style="background: rgba(51, 51, 51, 0.14);"
-src="https://money.yandex.ru/embed/shop.xml?account=410011338440103&quickpay=shop&payment-type-choice=on&writer=seller&targets=%D0%9E%D0%BF%D0%BB%D0%B0%D1%82%D0%B0+%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8+Option-Signal&default-sum=&button-text=01&comment=on&hint=%D0%A3%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%81%D0%B2%D0%BE%D0%B9+Email+%D0%B2+%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B5&mail=on&successURL=http%3A%2F%2Ftrust-signals.com%2Fpay%2Fpayok.php" class="ymoney" width="450" height="268"></iframe>
+src="https://money.yandex.ru/embed/shop.xml?account=410015355400036&quickpay=shop&payment-type-choice=on&writer=seller&targets=%D0%9E%D0%BF%D0%BB%D0%B0%D1%82%D0%B0+%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8+Trust-Signals&default-sum=&button-text=01&comment=on&hint=%D0%A3%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%81%D0%B2%D0%BE%D0%B9+Email+%D0%B2+%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B5&mail=on&successURL=http%3A%2F%2Ftrust-signals.com%2Fpay%2Fpayok.php" class="ymoney" width="450" height="268"></iframe>
 
 </center></div>
 <div class="col-md-12" style="margin-top: 10px; background-color: rgba(244, 67, 54, 0.74);

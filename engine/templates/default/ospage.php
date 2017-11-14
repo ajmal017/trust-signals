@@ -58,8 +58,8 @@
                             <!-ifAUTH>
                             <!-end>
                             <!-else>
-                            <li class="hidden-list open-auth"><a href="#">Войти</a></li>
-                            <li class="hidden-list open-reg"><a href="#" class="sp_notify_prompt">Регистрация</a></li>
+                            <li class="hidden-list open-auth"><button class="btn btn-success btn-lg" href="#">Войти</button></li>
+                            <li class="hidden-list open-reg"><button class="btn btn-success btn-lg" href="#" class="sp_notify_prompt">Регистрация</button></li>
                             <!-endelse>
                         </ul>
             </nav>
@@ -96,9 +96,23 @@
 <footer>
     <div class=" copyright">
         <div class="container ">
-            <div class="pull-left">
-                <p class=""> &copy; 2016-2017 Trust Signals. Все права защищены, копирование материала строго запрещено! </p>
+            <div class="pull-center">
+                <p class=""> &copy; 2016-2017 Trust Signals. Все права защищены, копирование материала строго запрещено!</p>
             </div>
+            <div class="pull-center">
+                <div class="header-menu">
+                    <nav>
+                        <ul>
+                            <li><a href="%uri%/home/brokers/">Брокеры</a></li>
+                            <li><a href="%uri%/home/stats/">Статистика</a></li>
+                            <li><a href="%uri%/home/faq/">FAQ</a</li>
+                            <li><a href="%uri%/home/support/">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+
         </div>
     </div>
 </footer>
