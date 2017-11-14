@@ -1,7 +1,7 @@
 <?php
 class Index extends Core {
     public function getTitle() {
-        echo "OPTION SIGNAL - Лучшие сигналы для бинарных и турбо опционов";
+        echo "Trust Signals - Лучшие сигналы для бинарных и турбо опционов";
     }
     public function getContent() {
         global $mysqli;

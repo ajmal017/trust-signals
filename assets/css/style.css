@@ -331,15 +331,16 @@ padding: 0px 10px 0px 15px;
 .navbar-nav li.drop ul.dropdown li:first-child {
   border-top: none;
 }
+
 .navbar-nav li.drop:hover ul.dropdown {
   opacity: 1;
   visibility: visible;
 }
+
 header.active .navbar-fixed-top{
 	position: fixed;
 	background: #178371;
 	border-bottom: none;
-	
 }
 
 header.active .top-line {
@@ -4922,4 +4923,470 @@ footer .copyright p{
     .navbar-nav{
 	  background: #282828;
   }
+}
+
+.alert-message {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 30px;
+  font-size: 1.2em;
+  color: #fff;
+  text-transform: uppercase;
+  background: #f0937d;
+  z-index: 101;
+}
+.alert-message.success {
+  background-color: #74c56b;
+}
+.stats {
+  overflow-x: hidden;
+}
+
+.notification {
+  padding: 10px;
+  color: #505050;
+  margin-bottom: 2px;
+}
+.notification-down {
+  background: rgba(249, 249, 249, 0.9);
+}
+.notification-down span {
+  color: #D06363;
+}
+.notification-up {
+  background: rgba(206, 206, 206, 0.78);
+}
+.notification-up span {
+  color: #63A763;
+}
+.notification:last-child {
+  margin-bottom: 10px;
+}
+.label-stats-0 {
+  background: #D06363;
+  padding: 4px;
+  color: #FFF !important;
+  font-size: 11px;
+}
+.label-stats-1 {
+  background: #63A763;
+  padding: 4px;
+  color: #FFFFFF !important;
+  font-size: 11px;
+}
+.stats {
+  box-shadow: inset 0 2px 2px rgba(0,0,0,.3);
+}
+
+.broker-logo {
+  height: 120px;
+  background-image: url(/engine/templates/default/img/brokers/broker1.jpg);
+  background-size: cover;
+  background-position: center center;
+  border-radius: 4px;
+}
+.broker-table {
+  display: table;
+  width: 102%;
+  border-spacing: 2px;
+  font-size: 14px;
+  margin: 0 -2px;
+}
+.broker-row {
+  display: table-row;
+  width: 100%;
+}
+.broker-name {
+  padding: 0 10px;
+}
+.broker-value {
+  width: 40px;
+  text-align: center;
+  padding: 10px 0;
+}
+.circle-odds.small {
+  font-size: 8px;
+}
+.circle-odds {
+  background-color: #ff8400;
+  color: #fff;
+  font-family: "RobotoBlack";
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.circle-odds.white {
+  background-color: #F9F7F7;
+  color: #FFCA90;
+}
+.broker-row > div {
+  display: table-cell;
+  background: #F5F5F5;
+  margin: 2px;
+  border-radius: 3px;
+}
+.broker-row .broker-value {
+  background-color: rgba(255, 132, 0, 0.05);
+}
+.broker-el {
+  width: 25%;
+  float: left;
+  border: 4px solid #fff;
+}
+.brokers {
+  background-color: #fff;
+  padding: 2px;
+}
+.brokers::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.broker-link a.white {
+  background-color: #5cce54;
+  color: #fff;
+}
+.broker-link a {
+  display: block;
+  padding: 10px;
+  background-color: #ff8400;
+  border-radius: 4px;
+  font-family: "Russo One";
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.header-auth {
+  width: 33%;
+  text-align: center;
+}
+
+
+.prices {
+  display: inline-block;
+  margin-left: 0;
+  vertical-align: top;
+}
+
+.prices {
+  text-align: center;
+}
+
+.price-box a:hover {
+  background-color: rgba(250, 122, 5, 0.24);
+  text-decoration: none;
+}
+
+.price-box a {
+  border: 2px solid #fa7a05;
+  border-radius: 4px;
+  bottom: 20px;
+  color: #fa7a05;
+  display: block;
+  font-size: 1.3em;
+  left: 30px;
+  padding: 5px;
+  position: absolute;
+  right: 30px;
+  transition: all 0.2s ease 0s;
+}
+
+.price-box:hover > .price-circle {
+  background-color: #fff;
+}
+
+.price-box:hover {
+  background-image: linear-gradient(120deg, rgba(250, 122, 5, 0.19), rgba(169, 169, 169, 0.23));
+  border-radius: 0;
+  outline: 4px solid #fa7a05;
+  transform: scale(1.04);
+}
+
+.price-box {
+  background-image: linear-gradient(120deg, #f6f6f6 0px, #f6f6f6 50%, #f2f2f2 50%, #f2f2f2 100%);
+  border-radius: 4px;
+  display: inline-block;
+  font-family: Poiret;
+  height: 300px;
+  margin: 0 10px;
+  position: relative;
+  text-align: center;
+  transition: all 0.2s ease 0s;
+  width: 230px;
+}
+
+.price-circle > * {
+  display: block;
+}
+
+.price-circle {
+  background-color: #ededed;
+  border-radius: 50%;
+  font-size: 1.2em;
+  height: 140px;
+  margin: 20px auto;
+  position: relative;
+  width: 140px;
+}
+
+.price-summ {
+  color: #fa7a05;
+  font-size: 2.4em;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 35px;
+}
+
+.price-name {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.price-amount {
+  bottom: 13px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.round-green-wrap {
+  padding: 0 25px;
+  background: #fff;
+  display: inline-block;
+  margin: 0;
+}
+
+.round-green {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: #27c97b;
+  color: #fff;
+  font-size: 36px;
+  display: block;
+  padding-top: 2px;
+}
+
+.step-row:before {
+  content: '';
+  left: 15%;
+  right: 15%;
+  height: 4px;
+  background: url(/assets/images/dot.png) 0 0 repeat-x;
+  display: inline-block;
+  position: absolute;
+  top: 44px;
+}
+
+.step-row .col-4 {
+  z-index: 2;
+  padding: 15px 55px;
+}
+
+.l-row {
+  margin: 0 -15px;
+}
+
+.rel {
+  position: relative;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.step-row .col-4 {
+  z-index: 2;
+  padding: 15px 55px;
+}
+
+.col-4 {
+  width: 33.3333%;
+  float: left;
+  padding: 15px;
+}
+
+.tc {
+  text-align: center;
+}
+
+.animate {
+  transition: .3s;
+}
+
+.calc-left {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: .5s;
+}
+
+.calc-right {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: .5s;
+}
+
+.calculate {
+  background-color: #000000;
+  display: table;
+  width: 100%;
+}
+
+.calculate > div {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.calculate h2 {
+  font-size: 1.35em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.calc-left {
+  padding: 45px;
+  color: #fff;
+  text-transform: uppercase;
+  width: 55%;
+}
+
+.calc-edit {
+  width: 85%;
+}
+
+.nav-value {
+  float: right;
+  font-size: 2em;
+  color: #FA7A05;
+  font-size: 1em;
+  text-align: left;
+}
+
+.nav-value span {
+  color: #fff;
+  font-size: 2.5em;
+}
+
+.nav-box {
+  padding: 40px 0;
+}
+
+.nav-slider {
+  padding: 10px 0;
+}
+
+.calc-desc {
+  text-align: left;
+}
+
+.graph-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  z-index: 4;
+  display: inline-block;
+}
+
+.calc-right::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.calc-right {
+  background-image: url(/engine/templates/default/img/graph.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.calc-right h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+.graph-info > div span {
+  margin-right: 10px;
+}
+
+.graph-info > div {
+  display: inline-block;
+  margin: 20px;
+  text-transform: uppercase;
+}
+
+.graph-profit .fa {
+  color: #FA7A05;
+}
+
+.graph-rbox {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  text-transform: uppercase;
+}
+
+.graph-text {
+  border-top: 1px solid #FA7A05;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.graph-result {
+  font-size: 2em;
+}
+
+.graph-white {
+  background-color: #fff;
+  height: 2px;
+}
+
+.graph-orange {
+  background-color: #FA7A05;
+  height: 10px;
+}
+
+.graph-white,
+.graph-orange {
+  width: 10px;
+}
+
+.graph-lines {
+  position: absolute;
+  bottom: 130px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.graph-lines > div {
+  display: inline-block;
+  transition: .2s;
+}
+
+.result-box {
+  margin-top: 40px;
+  display: none;
 }

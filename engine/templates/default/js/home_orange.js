@@ -91,6 +91,9 @@ $(document).ready(function() {
 		var btn = $(this),
 			btnVal = $(this).html();
 
+
+
+
 		$(btn).html("<span class='fa fa-spin fa-spinner'></span> " + btnVal);
 
 		var email = $("#auth-email").val(),
@@ -217,8 +220,6 @@ $(document).ready(function() {
 	$(".open-auth").click(function(e) {
         $("#content-window").hide();
         $(".box-header").hide();
-
-
 		$(".window-auth").fadeIn(300, function() {
 			$(".window-animate").css({
 				"transform": "scale(1) translateY(0)",
