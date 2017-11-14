@@ -17,8 +17,13 @@
 
 
     <!-- REVOLUTION BANNER CSS SETTINGS -->
-    <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/engine/templates/default/js/ospage.js"></script>
+
+
+    <link href="/engine/templates/default/css/orange_windows.css" rel="stylesheet">
+    <link href="/engine/templates/default/css/home_orange.css" rel="stylesheet">
+
+
+
 
     <link rel="stylesheet" type="text/css" href="/assets/css/settings.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css" media="screen">
@@ -174,7 +179,7 @@
 
 </style>
 <!-- Container -->
-
+<div id="content-window">
 <div id="container">
 
     <!-- Header
@@ -212,11 +217,7 @@
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="active" href="/">Главная</a> </li>
-                        <li><a class="active" href="%uri%/home/brokers/">Брокеры</a> </li>
-                        <li><a class="active" href="%uri%/home/stats/">Статистика</a> </li>
-                        <li><a class="active" href="%uri%/home/faq/">FAQ</a> </li>
-                        <li><a class="active" href="%uri%/home/support/">Контакты</a> </li>
+                        {orange/menu.php}
 
 
                         <!-ifAUTH>
@@ -298,6 +299,9 @@
     <!-- End footer -->
 
 </div>
+</div>
+
+{orange/windows.php}
 
 <!-- End Container -->
 
@@ -320,8 +324,8 @@
 <script type="text/javascript" src="/assets/js/jquery.countTo.js"></script>
 
 <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
-
+<script type="text/javascript" src="/engine/templates/default/js/ospage.js"></script>
 <script type="text/javascript" src="/assets/js/script.js"></script>
-
+<script type="text/javascript" src="/engine/templates/default/js/home_orange.js"></script>
 </body>
 </html>

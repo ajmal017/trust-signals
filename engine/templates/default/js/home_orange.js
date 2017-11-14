@@ -215,6 +215,10 @@ $(document).ready(function() {
 		});
 	});
 	$(".open-auth").click(function(e) {
+        $("#content-window").hide();
+        $(".box-header").hide();
+
+
 		$(".window-auth").fadeIn(300, function() {
 			$(".window-animate").css({
 				"transform": "scale(1) translateY(0)",
@@ -223,7 +227,11 @@ $(document).ready(function() {
 		});
 	});
 	$(".open-reg").click(function(e) {
+
 		$(".window-reg").fadeIn(300, function() {
+            $("#content-window").hide();
+            $(".box-header").hide();
+
 			$(".window-animate").css({
 				"transform": "scale(1) translateY(0)",
 				"opacity": "1"
@@ -233,6 +241,8 @@ $(document).ready(function() {
 	$(".window-close").click(function() {
 		$(".window").fadeOut(300,function() {
 			$(".remember-pass").hide();
+            $("#content-window").show();
+            $(".box-header").show();
 		});
 		$(".window-animate").css({
 			"transform": "scale(.3) translateY(-100px)",
