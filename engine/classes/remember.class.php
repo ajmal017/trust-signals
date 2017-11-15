@@ -1,7 +1,7 @@
 <?php
 	class Remember extends Core {
 		public function getTitle() {
-			echo "OptionSignal - ВОССТАНОВЛЕНИЕ ПАРОЛЯ";
+			echo "TrustSignals - ВОССТАНОВЛЕНИЕ ПАРОЛЯ";
 		}
 		public function getContent() {
             $this->changeLauncher("remember");

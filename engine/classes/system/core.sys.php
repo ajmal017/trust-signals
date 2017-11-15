@@ -117,7 +117,7 @@
         protected function ifAuth($tmp) {
             $adds = new Additions();
             $path = ROOT."/engine/templates/". $this->_tmp;
-            preg_match_all("/<\!\-ifAUTH>(\s*.*\t*\n*)<\!\-end>(\s*.*\t*\n*)<\!\-else>(\s*.*\t*\n*)<\!\-endelse>/", $tmp, $ifls);
+            preg_match_all("/<\!\-ifAUTH>(\s*.*\t*\n*)<\!\-end>(\s*.*\t*\n*)<\!\-else>(\s*.*\t*\n*)<\!\-endelse>/sU", $tmp, $ifls);
             foreach($ifls[0] as $key => $value) {
                 $tmp_auth = "";
                 if($adds->isAuth()) {

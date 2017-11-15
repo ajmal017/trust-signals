@@ -26,6 +26,7 @@
     <link rel="stylesheet" type="text/css" href="%URI%/assets/css/style.css" media="screen">
     <link href="%URI%/engine/templates/default/css/orange_windows.css" rel="stylesheet">
     <link href="%URI%/engine/templates/default/css/home_orange.css" rel="stylesheet">
+
 </head>
 <body>
 <style>
@@ -47,18 +48,17 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                             {orange/menu.php}
-                            <!-ifAUTH>
-                            <!-end>
-                            <!-else>
+<!-ifAUTH>
+                            <li><div class="user1"><div class="user-panel btn btn-primary"><img src="%user_img%" ALT='%user_name%'><div class="user-name">%user_name%</div><div class="user-nav"><a href="%URI%/cabinet/">Кабинет</a> | <a href="%URI%/logout/">Выход</a></div></div></div></li>
+<!-end>
+<!-else>
                             <li class="hidden-list open-auth"><button class="btn btn-success btn-lg" href="#">Войти</button></li>
                             <li class="hidden-list open-reg"><button class="btn btn-success btn-lg" href="#" class="sp_notify_prompt">Регистрация</button></li>
-                            <!-endelse>
+<!-endelse>
                         </ul>
             </nav>
     </div>
-    <div class="header-auth">
-        <!-ifAUTH>
-    </div>
+
     <!-- /.navbar-collapse -->
 </div>
 <!-- /.container -->

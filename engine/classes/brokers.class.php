@@ -9,6 +9,8 @@ class Brokers extends Core {
 		$adds = new Additions();
 		if($adds->isAuth()) {
 			$user = $adds->getUserData();
+            $this->templateEdit("user_img", $user['img']);
+            $this->templateEdit("user_name", $user['name']);
 		}
 		else {
 			$user = NULL;

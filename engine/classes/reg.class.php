@@ -1,7 +1,7 @@
 <?php
 	class Reg extends Core {
 		public function getTitle() {
-			echo "OptionSignal - Регистрация";
+			echo "TrustSignals - Регистрация";
 		}
 		public function getContent() {
             $this->changeLauncher("reg");

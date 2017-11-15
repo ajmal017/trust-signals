@@ -18,6 +18,8 @@
     <link href="/engine/templates/default/css/home_orange.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/assets/css/settings.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css" media="screen">
+
+    <script charset="UTF-8" src="//cdn.sendpulse.com/28edd3380a1c17cf65b137fe96516659/js/push/a956f79b553e908ed2b29f1c3e65e557_1.js" async></script>
 </head>
 <body>
 <style>
@@ -29,22 +31,6 @@
            ================================================== -->
         <header class="clearfix">
             <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-                <div class="top-line">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <ul class="social-icons">
-                                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
-                                    <li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
@@ -56,6 +42,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             {orange/menu.php}
                             <!-ifAUTH>
+                            <li><div class="user"><div class="user-panel btn btn-primary"><img src="%user_img%" ALT='%user_name%'><div class="user-name">%user_name%</div><div class="user-nav"><a href="%URI%/cabinet/">Кабинет</a> | <a href="%URI%/logout/">Выход</a></div></div></div></li>
                             <!-end>
                             <!-else>
                             <li class="hidden-list open-auth"><button class="btn btn-success btn-lg" href="#">Войти</button></li>
@@ -65,7 +52,7 @@
             </nav>
     </div>
     <div class="header-auth">
-        <!-ifAUTH>
+
     </div>
     <!-- /.navbar-collapse -->
 </div>

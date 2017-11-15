@@ -14,13 +14,14 @@
 				$this->templateEdit("user_name", $user['name']);
 			}
 			$wtime = 20;
-            $datetime1 = date_create('2014-06-01');
+            $datetime1 = date_create('2016-06-01');
             $datetime2 = date_create(date("Y-m-d"));
             $interval = date_diff($datetime1, $datetime2);
             $wtime =  $interval->days;
             $wpersent = rand(81, 86);
             $mprofit = rand(150, 230);
             $ausers = $adds->usersAmound();
+
 
 
             /* NEWS */

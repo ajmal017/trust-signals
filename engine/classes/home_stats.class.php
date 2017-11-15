@@ -6,9 +6,12 @@ class Home_stats extends Core {
 	public function getContent() {
 		$date = date("Y-m-d");
 		$this->changeLauncher("ospage");
+        $this->templateEdit("URI", URI);
 		$adds = new Additions();
 		if($adds->isAuth()) {
 			$user = $adds->getUserData();
+            $this->templateEdit("user_img", $user['img']);
+            $this->templateEdit("user_name", $user['name']);
 		}
 		else {
 			$user = NULL;

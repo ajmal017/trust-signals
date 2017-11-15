@@ -22,7 +22,7 @@
 	define(DB_USER, "root");
 	define(DB_PASSWORD, "");
 	define(DB_BASE, "trust_signal");
-    // BASIC INFO
+    // BASIC INFO wer12Dwer
     define(URI, "https://trust-signals.com");
     define(OLD_URI, "http://old.trustsignals.info");
     // SMTP INFO

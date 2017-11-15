@@ -15,10 +15,10 @@ body {
 }
 .header h3.logo {
     background: rgba(90, 142, 127, 0) url('../img/logo.png');
-    width: 190px;
-    height: 33px;
-    margin-top: 12px;
-    margin-left: 10px;
+    width: 250px;
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 .panel-box .session-clean {
     height: 55px;

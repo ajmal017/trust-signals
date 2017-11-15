@@ -3,7 +3,7 @@ class Buy_mobile extends Core {
     public function getTitle() {
         $adds = new Additions();
         if($adds->isAuth()) {
-            echo "OptionSignal - Список пакетов";
+            echo "TrustSignals - Список пакетов";
         }
         else {
             $adds->redirect(URI."/home/");
